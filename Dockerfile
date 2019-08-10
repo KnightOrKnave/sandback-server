@@ -1,4 +1,4 @@
-FROM ruby
+FROM ruby:rc-slim
 MAINTAINER Admin <admin@admin.com>
 
 ADD ./empty_server.rb /opt/empty_server.rb
