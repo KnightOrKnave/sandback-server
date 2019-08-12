@@ -15,5 +15,6 @@ Docker build ./ -t sandback
 
 ## Usage
 
-docker run --rm -p 53:5300/udp -p 53:5300/tcp -p 80:80 -e HOSTIP=｛ホストIP｝ --name sandback sandback
-
+```
+docker run --rm -p 53:5300/udp -p 53:5300/tcp -p 80:80 -e HOSTIP={ホストIP} --name sandback sandback
+```
